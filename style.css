@@ -85,16 +85,27 @@ p {
     cursor: pointer;
     z-index: 10
 }
-.link{
+
+.link {
     float: left;
     color: #fff;
     padding-top: 5px;
     padding-left: 9px;
     padding-right: 9px;
     padding-bottom: 5px;
-    font-family: fantasy;
+    font-family: 'Roboto Mono', cursive;
     font-size: 20px;
 }
-.link:hover{
-    background-color: aqua
+
+.link:hover {
+    background-color: aqua;
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color: coral;
+}
+html{
+    scroll-behavior: smooth;
 }
