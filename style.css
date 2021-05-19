@@ -79,11 +79,13 @@ p {
 .menu {
     list-style: none;
     font-family: sans-serif;
-    position: absolute;
-    top: 10px;
+    position: fixed;
+    top: 0px;
     right: 30px;
     cursor: pointer;
-    z-index: 10
+    z-index: 10;
+    background: white;
+    margin-top: 0px;
 }
 
 .link {
@@ -95,17 +97,31 @@ p {
     padding-bottom: 5px;
     font-family: 'Roboto Mono', cursive;
     font-size: 20px;
+    display: inline;
 }
 
 .link:hover {
     background-color: aqua;
+    text-decoration: underline;
+    font-size: 25px;
 }
-a{
+
+a {
     text-decoration: none;
+    text-shadow: 2px 2px gainsboro;
+    color: crimson
 }
-.article:hover{
+
+.article:hover {
     color: coral;
 }
-html{
+
+html {
     scroll-behavior: smooth;
+}
+
+#writing a {
+    text-decoration: underline !important;
+    text-shadow: none !important;
+    color: blue !important;
 }
